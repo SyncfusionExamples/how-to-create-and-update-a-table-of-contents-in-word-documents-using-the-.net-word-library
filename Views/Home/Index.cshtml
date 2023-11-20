@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<input type="button" value="Create TOC" style="margin-top: 5px;margin-bottom: 5px"
+       onclick="location.href='@Url.Action("CreateTOC", "Home")'" />
+<input type="button" value="Edit TOC" style="margin-top: 5px;margin-bottom: 5px"
+       onclick="location.href='@Url.Action("EditTOC", "Home")'" />
+<input type="button" value="Custom Style TOC" style="margin-top: 5px;margin-bottom: 5px"
+       onclick="location.href='@Url.Action("CustomStyleTOC", "Home")'" />
+<input type="button" value="Custom TOC entries" style="margin-top: 5px;margin-bottom: 5px"
+       onclick="location.href='@Url.Action("CustomTOCEntries", "Home")'" />
